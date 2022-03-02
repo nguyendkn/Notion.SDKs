@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\NotionCore.Database\NotionCore.Database.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\NotionCore.Shared\NotionCore.Shared.csproj" />
+    </ItemGroup>
+
 </Project>
