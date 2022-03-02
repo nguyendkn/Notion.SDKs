@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16C3C63B-B7CF-4FD5-9F60-F2F9E6ED58E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionCore", "src\NotionCore\NotionCore.csproj", "{011AF009-AF93-4B00-A57A-0B59E64EE859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionCore.Database", "src\NotionCore.Database\NotionCore.Database.csproj", "{DD2453DA-B570-4E31-8DCA-64081CD54CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotionCore.Shared", "src\NotionCore.Shared\NotionCore.Shared.csproj", "{81D53C51-0916-4C65-BE1A-CCE47F04B845}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{011AF009-AF93-4B00-A57A-0B59E64EE859} = {16C3C63B-B7CF-4FD5-9F60-F2F9E6ED58E0}
+		{DD2453DA-B570-4E31-8DCA-64081CD54CE7} = {16C3C63B-B7CF-4FD5-9F60-F2F9E6ED58E0}
+		{81D53C51-0916-4C65-BE1A-CCE47F04B845} = {16C3C63B-B7CF-4FD5-9F60-F2F9E6ED58E0}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{011AF009-AF93-4B00-A57A-0B59E64EE859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011AF009-AF93-4B00-A57A-0B59E64EE859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011AF009-AF93-4B00-A57A-0B59E64EE859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011AF009-AF93-4B00-A57A-0B59E64EE859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2453DA-B570-4E31-8DCA-64081CD54CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2453DA-B570-4E31-8DCA-64081CD54CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2453DA-B570-4E31-8DCA-64081CD54CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2453DA-B570-4E31-8DCA-64081CD54CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D53C51-0916-4C65-BE1A-CCE47F04B845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D53C51-0916-4C65-BE1A-CCE47F04B845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D53C51-0916-4C65-BE1A-CCE47F04B845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D53C51-0916-4C65-BE1A-CCE47F04B845}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
